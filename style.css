@@ -1,0 +1,1089 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('images/source-sans-pro/SourceSansPro-Bold.otf');
+}
+
+body{
+    background-image: url('./images/background.png');
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 3718px;
+}
+
+body a{
+    text-decoration: none;
+}
+
+
+header{
+    width: 1103 px;
+    height: 29.46px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 101px;
+}
+
+#menu {
+    justify-content: space-around;
+    color: #FFFFFF;
+}
+
+#courses {
+    position: absolute;
+height: 15px;
+left: 57%;
+right: 28.63%;
+top: calc(11.3% - 15px/2);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+#pricing {
+    position: absolute;
+    height: 15px;
+    left: 63.59%;
+    right: 28.63%;
+    top: calc(11.3% - 15px/2);
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+#login {
+    position: absolute;
+height: 15px;
+left: 70.47%;
+right: 0%;
+top: calc(11.3% - 15px/2);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+
+
+
+body img{
+    width: 1440.15;
+    height: 1093;
+}
+
+#titulo{
+    justify-content: center;
+    display: flex;
+}
+
+
+#schooled h1{
+    font-family:'Source Sans Pro';
+    font-size: 120px;
+    color: #FFFFFF;
+}
+
+#palabras{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#smiles{
+    position: absolute;
+height: 20px;
+left: 47.35%;
+right: 55.21%;
+top: calc(38% - 20px/2 - 89.8px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-size: 16px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#grin {
+    position: absolute;
+height: 20px;
+left: 57%;
+right: 48.61%;
+top: calc(38% - 20px/2 - 89.8px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#laugh {
+    position: absolute;
+height: 20px;
+left: 64.35%;
+right: 41.25%;
+top: calc(38% - 20px/2 - 89.8px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#schooled button{
+position: absolute;
+left: 50.38%;
+right: 35%;
+top: 35.33%;
+bottom: 60.64%;
+
+filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+background-color: #C271FF;
+border-radius: 20px;
+color: #FFFFFF;
+}
+
+#learn {
+    position: absolute;
+    height: 40px;
+    left: 35%;
+    right: 20%;
+    top: calc(42% - 40px/2 + 104.5px);
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#palabralearn {
+    color: #C271FF
+}
+
+#pros {
+    display: flex;
+    position: absolute;
+    width: 1009px;
+    height: 237px;
+    left: 217px;
+    top: 758px;
+    justify-content: space-around;
+}
+
+#pros img{
+    border-radius: 50%;
+    bottom: 36.71%;
+}
+
+#pros #phillip{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#pros #nannie{
+    
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#pros #bruce{
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#pros #henry{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#pros p{
+
+height: 48px;
+font-family: 'Source Sans Pro';
+font-style: italic;;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+#Quotes {
+    position: absolute;
+    width: 1440px;
+    height: 392px;
+    left: -1px;
+    top: 1093px;
+    display: flex;
+    background: #C271FF;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#Quotes img{
+    width: 154px;
+    height: 161px;
+    margin-left: 10%;
+    border-radius: 50%;
+}
+
+#Quotes #author{
+
+left: 0%;
+margin-right: 10%;
+top: 0%;
+bottom: 56.96%;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 34px;
+/* or 153% */
+
+
+color: #FFFFFF;
+}
+
+#Quotes #subtitle{
+    height: 34px;
+left: 0%;
+right: 82.33%;
+top: calc(50% - 34px/2 + 28px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 34px;
+/* identical to box height, or 153% */
+
+
+color: #FFFFFF;
+}
+
+#Quotes #clima{
+    height: 34px;
+
+font-family: 'Source Sans Pro';
+font-style: italic;
+font-weight: 400;
+font-size: 22px;
+line-height: 34px;
+/* identical to box height, or 153% */
+
+
+color: #FFFFFF;
+}
+
+#videos {
+    position: absolute;
+width: 1228px;
+height: 450px;
+left: 106px;
+top: 1572px;
+display: flex;
+justify-content: center;
+}
+
+#videos #popular{
+    color:#C271FF;
+
+}
+
+#videos h1{
+
+height: 40px;
+left: 39.25%;
+right: 36.81%;
+top: calc(50% - 40px/2 - 205px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+
+color: #071629;
+}
+
+#videos #tutorial1{
+    position: absolute;
+left: 4.72%;
+right: 74.51%;
+top: 25.56%;
+bottom: 0%;
+}
+
+#videos #tutorial2{
+    position: absolute;
+left: 28.01%;
+right: 51.22%;
+top: 25.56%;
+bottom: 0%;
+}
+
+#videos #tutorial3{
+    position: absolute;
+left: 51.22%;
+right: 28.01%;
+top: 25.56%;
+bottom: 0%;
+}
+
+#videos #tutorial4{
+    position: absolute;
+left: 74.43%;
+right: 4.8%;
+top: 25.56%;
+bottom: 0%;
+}
+
+#videos #ptutorial1{
+    position: absolute;
+    height: 48px;
+    left: 5.1%;
+    right: 0%;
+    top: calc(50% - -25px/2 + 56.1px);
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: rgba(7, 22, 41, 0.501584);
+}
+
+#videos #titulotuto1{
+    position: absolute;
+    height: 20px;
+    left: 5.1%;
+    right: 53.33%;
+    top: calc(50% - -50px/2 + 14.5px);
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #071629;
+}
+
+#videos #titulotuto2{
+    position: absolute;
+height: 20px;
+left: 28.5%;
+right: 50.45%;
+top: calc(50% - -50px/2 + 14.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+
+color: #071629;
+}
+
+#videos #ptutorial2{
+    position: absolute;
+height: 48px;
+left: 28.5%;
+right: 0%;
+top: calc(50% - -26px/2 + 56.1px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+color: rgba(7, 22, 41, 0.501584);
+}
+
+
+#videos #titulotuto3{
+    position: absolute;
+height: 20px;
+left: 51.8%;
+right: 16.86%;
+top: calc(50% - -40px/2 + 14.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+
+color: #071629;
+}
+
+#videos #ptutorial3{
+    position: absolute;
+height: 48px;
+left: 51.8%;
+right: 0%;
+top: calc(50% - -26px/2 + 56.1px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+color: rgba(7, 22, 41, 0.501584);
+}
+
+#videos #titulotuto4{
+    position: absolute;
+height: 20px;
+left: 75.0%;
+right: 10%;
+top: calc(50% - -40px/2 + 14.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+
+color: #071629;
+}
+
+#videos #ptutorial4{
+    position: absolute;
+height: 48px;
+left: 75%;
+right: 0%;
+top: calc(50% - -26px/2 + 56.1px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+color: rgba(7, 22, 41, 0.501584);
+
+}
+
+#videos #avatar1{
+    position: absolute;
+left: 5.1%;
+right: 83.14%;
+top: 80.91%;
+bottom: 13.13%;
+}
+
+#videos #avatartitulo1{
+    position: absolute;
+height: 27px;
+left: 9%;
+right: 44.31%;
+top: calc(50% - -40px/2 + 109px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 27px;
+/* identical to box height, or 193% */
+
+
+color: #C271FF;
+}
+
+
+#videos #avatar2{
+    position: absolute;
+    left: 28.5%;
+    right: 13.14%;
+    top: 80.91%;
+    bottom: 13.13%;
+}
+
+#videos #avatartitulo2{
+    position: absolute;
+height: 27px;
+left: 32.5%;
+right: 4.31%;
+top: calc(50% - -40px/2 + 109px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 27px;
+/* identical to box height, or 193% */
+
+
+color: #C271FF;
+}
+
+#videos #avatar3{
+    position: absolute;
+left: 52%;
+right: 3.14%;
+top: 80.91%;
+bottom: 13.13%;
+}
+
+#videos #avatartitulo3{
+    position: absolute;
+height: 27px;
+left: 56%;
+right: 1%;
+top: calc(50% - -40px/2 + 109px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 27px;
+/* identical to box height, or 193% */
+
+
+color: #C271FF;
+}
+
+#videos #avatar4{
+    position: absolute;
+left: 75%;
+right: 3.14%;
+top: 80.91%;
+bottom: 13.13%;
+}
+
+#videos #avatartitulo4{
+    position: absolute;
+height: 27px;
+left: 79%;
+right: 4.31%;
+top: calc(50% - -40px/2 + 109px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 27px;
+/* identical to box height, or 193% */
+
+
+color: #C271FF;
+}
+
+
+#rating{
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+    width: 107px;
+    height: 15px;
+    left: 63px;
+    top: 405px;
+}
+
+
+#rating2{
+    position: absolute;
+width: 107px;
+height: 15px;
+left: 353px;
+top: 405px;
+}
+
+#rating3{
+    position: absolute;
+    width: 107px;
+    height: 15px;
+    left: 643px;
+    top: 405px;
+
+}
+
+#rating4{
+    position: absolute;
+    width: 107px;
+    height: 15px;
+    left: 923px;
+    top: 405px;
+}
+
+#prating1{
+    position: absolute;
+height: 27px;
+left: 170.04%;
+right: -110%;
+top: calc(50% - 335px/2 + 143px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 1600;
+font-size: 14px;
+line-height: 27px;
+/* identical to box height, or 193% */
+
+text-align: right;
+
+color: #C271FF;
+
+}
+
+#prating2{
+    position: absolute;
+height: 27px;
+left: 170.04%;
+right: -120%;
+top: calc(50% - 335px/2 + 143px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 27px;
+/* identical to box height, or 193% */
+
+text-align: right;
+
+color: #C271FF;
+
+}
+
+#prating3{
+    position: absolute;
+height: 27px;
+left: 170.04%;
+right: -120%;
+top: calc(50% - 335px/2 + 143px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 27px;
+/* identical to box height, or 193% */
+
+text-align: right;
+
+color: #C271FF;
+
+}
+
+#prating4{
+    position: absolute;
+height: 27px;
+left: 170.04%;
+right: -120%;
+top: calc(50% - 335px/2 + 143px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 27px;
+/* identical to box height, or 193% */
+
+text-align: right;
+
+color: #C271FF;
+
+}
+
+#membership{
+
+position: absolute;
+width: 1440px;
+height: 502px;
+left: 0px;
+top: 2109px;
+
+background: #071629;
+}
+
+#membership h1{
+    position: absolute;
+height: 40px;
+left: 20.85%;
+right: 20.9%;
+top: calc(50% - 40px/2 - 161px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+color:white;
+
+}
+
+#membership #free{
+    color: #C271FF;
+}
+
+#smile1{
+    position: absolute;
+width: 43.67px;
+height: 35.35px;
+left: 256.71px;
+top: 220px;
+}
+
+#smile2{
+    position: absolute;
+width: 43.67px;
+height: 35.35px;
+left: 556.71px;
+top: 220px;
+}
+
+#smile3{
+    position: absolute;
+width: 43.67px;
+height: 35.35px;
+left: 846.71px;
+top: 220px;
+}
+
+#smile4{
+    position: absolute;
+width: 43.67px;
+height: 35.35px;
+left: 1156.71px;
+top: 220px;
+}
+
+#h2smile1 {
+    position: absolute;
+height: 26px;
+left: 0.19%;
+right: 61%;
+top: calc(58% - 26px/2 - 1.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#h2smile2 {
+    position: absolute;
+height: 26px;
+left: 0.19%;
+right: 20%;
+top: calc(58% - 26px/2 - 1.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+#h2smile3 {
+    position: absolute;
+height: 26px;
+left: 21%;
+right: 0%;
+top: calc(58% - 26px/2 - 1.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#h2smile4 {
+    position: absolute;
+height: 26px;
+left: 64%;
+right: 0%;
+top: calc(58% - 26px/2 - 1.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#register{
+    position: absolute;
+left: 44.38%;
+right: 44.38%;
+top: 85.88%;
+bottom: 5.36%;
+
+filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+background: #C271FF;
+border-radius: 22px;
+color: white;
+}
+
+#psmile1{
+    position: absolute;
+height: 52px;
+left: 12%;
+right: 72%;
+top: calc(60% - 52px/2 + 50.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#psmile2{
+    position: absolute;
+height: 52px;
+left: 33%;
+right: 52%;
+top: calc(60% - 52px/2 + 50.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#psmile3{
+    position: absolute;
+height: 52px;
+left: 54%;
+right: 32%;
+top: calc(60% - 52px/2 + 50.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#psmile4{
+    position: absolute;
+height: 52px;
+left: 75%;
+right: 10%;
+top: calc(60% - 52px/2 + 50.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.block {
+    position: absolute;
+width: 920px;
+height: 707px;
+left: 249px;
+top: 2678px;
+}
+
+.block h1{
+    position: absolute;
+height: 75px;
+left: 44.24%;
+right: 40.98%;
+top: calc(50% - 75px/2 - 316px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 60px;
+line-height: 75px;
+text-align: center;
+
+color: #071629;
+}
+
+#faq1 {
+    position: absolute;
+left: 0%;
+right: 61.96%;
+top: 21.07%;
+bottom: 44.7%;
+
+}
+
+#faq2 {
+    position: absolute;
+left: 61.96%;
+right: 0%;
+top: 21.07%;
+bottom: 44.7%;
+}
+
+#faq3 {
+    position: absolute;
+left: 0%;
+right: 61.96%;
+top: 65.77%;
+bottom: 0%;
+
+}
+
+#faq4 {
+    position: absolute;
+left: 61.96%;
+right: 0%;
+top: 65.77%;
+bottom: 0%;
+
+}
+
+footer{
+    position: absolute;
+width: 1440px;
+height: 249px;
+left: 0px;
+top: 3469px;
+position: absolute;
+background: #071629;
+}
+
+#logofooter {
+    position: absolute;
+left: 11.46%;
+right: 76.81%;
+top: 38.15%;
+bottom: 49.8%;
+
+}
+
+#social{
+    display: flex;
+    position: absolute;
+width: 130px;
+height: 30px;
+left: 1070px;
+top: 90px;
+justify-content: space-between;
+}
+
+#smileschool{
+    position: absolute;
+height: 15px;
+left: -300.67%;
+right: 50%;
+top: calc(50% - 15px/2 + 78px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.35;
+}
+
